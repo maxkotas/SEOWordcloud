@@ -8,8 +8,10 @@ import re
 from openai import OpenAI
 import subprocess
 
+MY_API_KEY = ""
+
 # Set your OpenAI API key here
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="MY_API_KEY")
 
 def get_text_from_url(url):
     """Fetch and extract text content from a URL."""
